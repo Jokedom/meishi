@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        tools:context=".ui.Baojian.BaojFragment">
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.5" />
+
+        <com.xuexiang.xui.widget.button.RippleView
+            android:id="@+id/deletebutton"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+
+            app:layout_constraintEnd_toStartOf="@+id/allcheckbuttonq"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:rv_type="rectangle"
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:id="@+id/btnlogin"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginRight="3dp"
+                android:background="#FF4A4A"
+                android:gravity="center"
+                android:text="删除"
+                android:textColor="@color/xui_config_color_white"
+                android:textSize="20sp" />
+        </com.xuexiang.xui.widget.button.RippleView>
+
+        <com.xuexiang.xui.widget.button.RippleView
+            android:id="@+id/allcheckbuttonq"
+            android:layout_width="0dp"
+            android:layout_height="55dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/guideline4"
+            app:rv_type="rectangle"
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:id="@+id/allcheckbutton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginLeft="3dp"
+                android:background="@color/gray"
+                android:gravity="center"
+                android:text="全选"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+        </com.xuexiang.xui.widget.button.RippleView>
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.07" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">meishi</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="uipu">食谱</string>
+    <string name="shiji">市集</string>
+    <string name="mine">我的</string>
+    <string name="delete">你确定要删除吗</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_shipu"
+        android:title="@string/uipu" />
+
+    <item
+        android:id="@+id/navigation_jishi"
+        android:icon="@drawable/ic_jishi"
+        android:title="分类" />
+    <item
+        android:id="@+id/navigation_meishiadmin"
+        android:icon="@drawable/ic_shipu"
+        android:title="食谱管理" />
+    <item
+        android:id="@+id/navigation_mine"
+        android:icon="@drawable/mine"
+        android:title="@string/mine" />
+
+
+</menu>

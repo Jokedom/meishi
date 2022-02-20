@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.zero.du.meishi.ui.home.HomeFragment"
+        android:label="@string/uipu"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_jishi"
+        android:name="com.zero.du.meishi.ui.jishi.JiShiFragment"
+        android:label="分类"
+        tools:layout="@layout/fragment_jishi" />
+
+    <fragment
+        android:id="@+id/navigation_mine"
+        android:name="com.zero.du.meishi.ui.mine.MineFragment"
+        android:label="@string/mine"
+        tools:layout="@layout/fragment_mine" />
+    <fragment
+        android:id="@+id/navigation_shipudetail"
+        android:name="com.zero.du.meishi.ui.home.DetailFragment"
+        android:label="菜谱详情"
+        tools:layout="@layout/fragment_caipudetail" />
+    <fragment
+        android:id="@+id/navigation_search"
+        android:name="com.zero.du.meishi.SearchFragment"
+        android:label="搜索"
+        tools:layout="@layout/fragment_serach" />
+    <fragment
+        android:id="@+id/navigation_searchdetail"
+        android:name="com.zero.du.meishi.SearchDetailFragment"
+        android:label="搜索详情"
+        tools:layout="@layout/fragment_searchdetail" />
+    <fragment
+        android:id="@+id/navigation_shoucang"
+        android:name="com.zero.du.meishi.ui.mine.ShoucangFragment"
+        android:label="我的收藏"
+        tools:layout="@layout/fragment_searchdetail" />
+    <fragment
+        android:id="@+id/navigation_xiugaimima"
+        android:name="com.zero.du.meishi.ui.mine.ChangePwdFragment"
+        android:label="修改密码"
+        tools:layout="@layout/fragmentchangpwd" />
+    <fragment
+        android:id="@+id/navigation_about"
+        android:name="com.zero.du.meishi.ui.mine.AboutFragment"
+        android:label="关于"
+        tools:layout="@layout/fragment_about" />
+    <fragment
+        android:id="@+id/navigation_meishiadmin"
+        android:name="com.zero.du.meishi.ui.meishi.MeishiFragment"
+        android:label="食谱管理"
+        tools:layout="@layout/fragment_meishiadmin" />
+    <fragment
+        android:id="@+id/navigation_addshipu"
+        android:name="com.zero.du.meishi.ui.meishi.AddMeishiFragment"
+        android:label="添加食谱"
+        tools:layout="@layout/fragment_insert_shipu" />
+    <fragment
+        android:id="@+id/navigation_xiugaishipu"
+        android:name="com.zero.du.meishi.ui.meishi.AddMeishiFragment"
+        android:label="修改食谱"
+        tools:layout="@layout/fragment_insert_shipu" />
+</navigation>
